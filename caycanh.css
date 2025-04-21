@@ -1,0 +1,53 @@
+*{
+    margin :0;
+    padding: 0;
+}
+.sidebar{
+  
+    height:50px;
+    background-color: #00A69B;
+    
+
+}
+.sidebar ul{
+   list-style-type:none;
+   display:flex;
+   text-align: center;
+
+}
+.sidebar ul li{
+list-style:none;
+position:relative;
+
+
+}
+.sidebar ul li a{
+    display:inline-block ;
+    text-decoration: none;
+    padding:0 50px;
+    color:red;
+    line-height:50px;
+    background-color: #00A69B;
+}
+.sidebar ul li a:hover {
+    background-color:#5F5C5C;
+}
+.con{
+    background-color: #00A69B;
+    display: none;
+    padding:0 100px;
+    position:absolute;
+    text-decoration: none;
+    
+    }
+
+.cha:hover .con{
+        display:block;
+    }
+ .sidebar ul li> .con{
+
+    display:none;
+    position:absolute;
+ } 
+
+    
